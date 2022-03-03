@@ -2,24 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>CodePen - Final Sleep Enough Modal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PWA</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
     <link rel="stylesheet" href="src/master.css">
-    <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
-            rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <link rel="manifest" href="manifest.json">
-
-    <script src="src/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-
+<!-- partial:index.partial.html -->
 <div id="snackbar1">
     <p id="snack1" style="height:10px"></p>
 </div>
@@ -33,7 +24,7 @@
     <!-- Left-aligned links (default) -->
 
     <button type="button" class="btn" style="paddin:40px; margin:0" data-mdb-toggle="modal" data-mdb-target="#clock">
-        <i class="fa-solid fa-clock" id=""
+        <i class="fa-solid fa-clock" id="profile"
            style="padding-top:18px;padding-bottom:18px;padding-right:16px;margin-left:10px"></i>
     </button>
 
@@ -41,7 +32,7 @@
 
     <div class="topnav-right" id="profile">
         <button type="button" class="btn" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-            <i class="fa-solid fa-user active" id="" style="margin:10px;margin-top:24px"></i>
+            <i class="fa-solid fa-user active" id="profile" style="margin:10px;margin-top:24px"></i>
         </button>
     </div>
 
@@ -228,7 +219,11 @@
                     <!-- Tabs content -->
                 </div>
             </div>
+            <!-- partial -->
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js'></script>
+            <script src="src/script.js"></script>
 
-            <script src="src/index.js"></script>
 </body>
 </html>
